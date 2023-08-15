@@ -1,0 +1,1752 @@
+[
+  {
+    "product": [
+      {
+        "id": "ca15f118-1631-40ae-99f7-2664b9f8d434",
+        "name": "Product A",
+        "description": "This is Product A",
+        "created_at": "2023-08-15T02:53:06.162Z",
+        "updated_at": "2023-08-14T17:27:24.255Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "8279e201-4335-4636-9e5e-c960c6999255",
+        "name": "Product B",
+        "description": "This is Product B",
+        "created_at": "2023-08-15T01:25:17.225Z",
+        "updated_at": "2023-08-14T22:30:29.254Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "0313e072-1846-486e-9533-424d1dc5d25a",
+        "name": "Product C",
+        "description": "This is Product C",
+        "created_at": "2023-08-15T03:43:08.789Z",
+        "updated_at": "2023-08-14T19:40:00.959Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "7369b716-f2ae-427b-bde7-738914756d65",
+        "name": "Product D",
+        "description": "This is Product D",
+        "created_at": "2023-08-14T11:05:18.921Z",
+        "updated_at": "2023-08-15T05:02:16.994Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1a547d51-8be5-4765-83a7-fdabf6cce060",
+        "name": "Product E",
+        "description": "This is Product E",
+        "created_at": "2023-08-14T11:06:29.392Z",
+        "updated_at": "2023-08-14T21:41:26.056Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "8ae99fae-30ba-4227-b5fc-3fad5aae9911",
+        "quantity": 45694,
+        "date": "2023-08-15T06:45:53.071Z",
+        "created_at": "2023-08-15T03:39:14.964Z",
+        "updated_at": "2023-08-14T16:56:56.543Z",
+        "product_id": "ca15f118-1631-40ae-99f7-2664b9f8d434"
+      },
+      {
+        "id": "44a8ab48-e836-4e1a-b784-935bc0547caa",
+        "quantity": 65986,
+        "date": "2023-08-14T19:50:09.173Z",
+        "created_at": "2023-08-15T03:04:22.890Z",
+        "updated_at": "2023-08-15T09:09:15.413Z",
+        "product_id": "1a547d51-8be5-4765-83a7-fdabf6cce060"
+      },
+      {
+        "id": "de92cbaa-1f3f-46c7-9857-e936e68fd92e",
+        "quantity": 94936,
+        "date": "2023-08-15T06:00:36.521Z",
+        "created_at": "2023-08-14T20:02:19.647Z",
+        "updated_at": "2023-08-14T15:02:21.428Z",
+        "product_id": "0313e072-1846-486e-9533-424d1dc5d25a"
+      },
+      {
+        "id": "0229be97-3ceb-4dc5-a83a-256f03a50754",
+        "quantity": 36447,
+        "date": "2023-08-15T07:24:46.784Z",
+        "created_at": "2023-08-15T00:39:27.331Z",
+        "updated_at": "2023-08-14T13:31:19.834Z",
+        "product_id": "ca15f118-1631-40ae-99f7-2664b9f8d434"
+      },
+      {
+        "id": "7a3d705c-329c-447d-96b5-fc72a944e2ee",
+        "quantity": 2036,
+        "date": "2023-08-15T04:11:52.040Z",
+        "created_at": "2023-08-15T00:26:03.066Z",
+        "updated_at": "2023-08-14T16:07:09.964Z",
+        "product_id": "7369b716-f2ae-427b-bde7-738914756d65"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "1181a656-4d4a-428a-8147-f341657cc930",
+        "date": "2023-08-14T11:59:44.375Z",
+        "created_at": "2023-08-15T05:47:07.687Z",
+        "updated_at": "2023-08-14T16:42:49.667Z",
+        "product_id": "7369b716-f2ae-427b-bde7-738914756d65",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60b91c6b-ee24-41ce-946b-78d51a37741f",
+        "date": "2023-08-14T19:40:31.662Z",
+        "created_at": "2023-08-14T11:47:08.674Z",
+        "updated_at": "2023-08-15T05:46:38.712Z",
+        "product_id": "ca15f118-1631-40ae-99f7-2664b9f8d434",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1562186-56ca-46a0-9039-0aeab5f072f9",
+        "date": "2023-08-15T03:32:31.264Z",
+        "created_at": "2023-08-14T11:03:02.286Z",
+        "updated_at": "2023-08-14T21:23:06.512Z",
+        "product_id": "ca15f118-1631-40ae-99f7-2664b9f8d434",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44de2b55-a055-4f0c-a71a-93247c422a91",
+        "date": "2023-08-15T04:37:01.503Z",
+        "created_at": "2023-08-14T20:08:13.090Z",
+        "updated_at": "2023-08-14T23:01:38.728Z",
+        "product_id": "8279e201-4335-4636-9e5e-c960c6999255",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0575ca08-f206-4d97-914a-21a5da07f551",
+        "date": "2023-08-15T10:43:58.929Z",
+        "created_at": "2023-08-14T23:01:33.161Z",
+        "updated_at": "2023-08-14T16:51:40.289Z",
+        "product_id": "1a547d51-8be5-4765-83a7-fdabf6cce060",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2f81917c-0a4a-41e5-bd6b-3c4457b10241",
+        "email": "Marisol.Johns@yahoo.com",
+        "firstName": "Greta",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23084153",
+        "tenantId": null
+      },
+      {
+        "reference": "833ca5ca-0de7-4a3e-a749-a8821fd10491",
+        "email": "Tatyana_Gorczany@gmail.com",
+        "firstName": "Destini",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/516.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6261891a-d53a-4ace-bc57-1a5efb7b9897",
+        "email": "Verdie48@gmail.com",
+        "firstName": "Randall",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/71.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "86ef420c-189c-4110-b826-34e0726e4354",
+        "email": "Ezekiel_Goldner@gmail.com",
+        "firstName": "Fidel",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/282.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d06a1d31-4d3a-4ed1-ac42-a2c74960be25",
+        "email": "Adelia81@yahoo.com",
+        "firstName": "Maeve",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/952.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "6add32a7-a11d-42fa-9fca-8b8a1d2d15be",
+        "name": "Product A",
+        "description": "This is Product A",
+        "created_at": "2023-08-14T22:23:23.207Z",
+        "updated_at": "2023-08-15T08:09:49.880Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "911d43b8-bd37-4799-9230-97267657e367",
+        "name": "Product B",
+        "description": "This is Product B",
+        "created_at": "2023-08-15T01:18:17.226Z",
+        "updated_at": "2023-08-15T05:42:54.805Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "4ffa3979-ac7f-4933-9990-2a1ed06d6990",
+        "name": "Product C",
+        "description": "This is Product C",
+        "created_at": "2023-08-14T15:57:36.485Z",
+        "updated_at": "2023-08-14T11:47:16.046Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "2691d8ed-1f02-412f-b711-29090ff87bfd",
+        "name": "Product D",
+        "description": "This is Product D",
+        "created_at": "2023-08-14T13:44:42.931Z",
+        "updated_at": "2023-08-15T03:51:39.372Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "de037d29-b02a-4786-9aaf-a9ff744edca4",
+        "name": "Product E",
+        "description": "This is Product E",
+        "created_at": "2023-08-15T05:42:20.085Z",
+        "updated_at": "2023-08-15T02:21:57.575Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "a96b852c-0b1b-42c3-ac69-837716731204",
+        "quantity": 71143,
+        "date": "2023-08-14T23:40:23.653Z",
+        "created_at": "2023-08-15T08:06:24.253Z",
+        "updated_at": "2023-08-14T11:02:38.494Z",
+        "product_id": "2691d8ed-1f02-412f-b711-29090ff87bfd"
+      },
+      {
+        "id": "e53eaae9-2c8d-4ad0-971e-6d3f46812808",
+        "quantity": 91391,
+        "date": "2023-08-14T18:19:49.208Z",
+        "created_at": "2023-08-14T23:35:07.828Z",
+        "updated_at": "2023-08-15T07:07:39.322Z",
+        "product_id": "4ffa3979-ac7f-4933-9990-2a1ed06d6990"
+      },
+      {
+        "id": "d4178b60-cd04-4a68-8b36-011d745dffc2",
+        "quantity": 50037,
+        "date": "2023-08-14T16:21:12.493Z",
+        "created_at": "2023-08-14T18:55:22.424Z",
+        "updated_at": "2023-08-15T05:07:10.852Z",
+        "product_id": "de037d29-b02a-4786-9aaf-a9ff744edca4"
+      },
+      {
+        "id": "0404c9eb-8302-46db-9ca6-6600fe6a13c6",
+        "quantity": 27243,
+        "date": "2023-08-14T18:05:22.661Z",
+        "created_at": "2023-08-14T11:39:34.044Z",
+        "updated_at": "2023-08-14T17:47:41.290Z",
+        "product_id": "6add32a7-a11d-42fa-9fca-8b8a1d2d15be"
+      },
+      {
+        "id": "686ffeb8-ae9f-434a-a38d-d3c619970b13",
+        "quantity": 77343,
+        "date": "2023-08-15T03:16:45.049Z",
+        "created_at": "2023-08-14T23:46:43.594Z",
+        "updated_at": "2023-08-14T13:10:16.828Z",
+        "product_id": "de037d29-b02a-4786-9aaf-a9ff744edca4"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "7cf2e0c5-6289-40ae-a495-dd1fd48e4f37",
+        "date": "2023-08-14T21:49:01.342Z",
+        "created_at": "2023-08-14T14:05:44.370Z",
+        "updated_at": "2023-08-14T18:51:22.116Z",
+        "product_id": "911d43b8-bd37-4799-9230-97267657e367",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9be1ef72-0078-4a19-ba03-3108878a35ed",
+        "date": "2023-08-15T01:05:41.335Z",
+        "created_at": "2023-08-15T06:13:31.119Z",
+        "updated_at": "2023-08-14T20:49:14.921Z",
+        "product_id": "de037d29-b02a-4786-9aaf-a9ff744edca4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b069b9e-c802-48e8-9dfe-c6472be7e509",
+        "date": "2023-08-14T13:43:25.880Z",
+        "created_at": "2023-08-14T11:40:38.792Z",
+        "updated_at": "2023-08-14T21:11:10.817Z",
+        "product_id": "2691d8ed-1f02-412f-b711-29090ff87bfd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86ccbbc8-b669-4cc4-b248-c5bc6ebf0483",
+        "date": "2023-08-14T14:00:48.092Z",
+        "created_at": "2023-08-15T02:56:44.177Z",
+        "updated_at": "2023-08-14T22:10:46.391Z",
+        "product_id": "911d43b8-bd37-4799-9230-97267657e367",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "110d8425-9c90-4099-b289-318f0277912c",
+        "date": "2023-08-15T07:47:14.615Z",
+        "created_at": "2023-08-14T18:53:50.532Z",
+        "updated_at": "2023-08-14T11:22:00.892Z",
+        "product_id": "911d43b8-bd37-4799-9230-97267657e367",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a27e5b02-bb4e-4818-afbe-c37c52d22b5c",
+        "email": "Nasir_Gerlach75@hotmail.com",
+        "firstName": "Zander",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7774945",
+        "tenantId": null
+      },
+      {
+        "reference": "fb01de45-685b-4421-9c35-983cb0f4e67e",
+        "email": "Nathanael_Morar36@yahoo.com",
+        "firstName": "Juanita",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76184541",
+        "tenantId": null
+      },
+      {
+        "reference": "8331d3c0-a2fc-49cc-9197-27df48740776",
+        "email": "Marc7@yahoo.com",
+        "firstName": "Eveline",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1063.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "20f6ee1e-b257-44b7-b5df-b2ee24a9910e",
+        "email": "Jailyn27@yahoo.com",
+        "firstName": "Dedric",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/278.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1d4be05c-7f46-45f2-99b9-2b6e328644ba",
+        "email": "Gabe_Schuster@hotmail.com",
+        "firstName": "Mohammad",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1565321",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "40600203-811d-4654-85b1-4b69260bd06d",
+        "name": "Product A",
+        "description": "This is Product A",
+        "created_at": "2023-08-14T11:42:08.395Z",
+        "updated_at": "2023-08-14T17:38:13.687Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "9aab0926-af42-4c51-a0d0-870b9deefa38",
+        "name": "Product B",
+        "description": "This is Product B",
+        "created_at": "2023-08-14T19:19:42.725Z",
+        "updated_at": "2023-08-15T00:13:02.774Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "9cdbdab4-fa87-4bba-8c60-7a0763647f67",
+        "name": "Product C",
+        "description": "This is Product C",
+        "created_at": "2023-08-14T23:43:06.716Z",
+        "updated_at": "2023-08-14T16:00:30.663Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "69a5ce87-7a21-4d5a-be65-b958fb5cc47e",
+        "name": "Product D",
+        "description": "This is Product D",
+        "created_at": "2023-08-15T10:28:21.968Z",
+        "updated_at": "2023-08-15T04:10:50.411Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "57de3635-b59d-4e06-be6b-89600d5149b0",
+        "name": "Product E",
+        "description": "This is Product E",
+        "created_at": "2023-08-14T11:33:09.179Z",
+        "updated_at": "2023-08-15T03:55:57.829Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "d85ffa4e-299a-4f82-ba64-51126a2dd9fe",
+        "quantity": 97392,
+        "date": "2023-08-14T15:34:59.800Z",
+        "created_at": "2023-08-15T03:24:18.113Z",
+        "updated_at": "2023-08-15T07:50:39.074Z",
+        "product_id": "9aab0926-af42-4c51-a0d0-870b9deefa38"
+      },
+      {
+        "id": "e9822e79-12c1-4fd9-8450-33419a4b9c40",
+        "quantity": 91465,
+        "date": "2023-08-14T18:34:55.696Z",
+        "created_at": "2023-08-15T05:06:56.000Z",
+        "updated_at": "2023-08-14T17:26:07.943Z",
+        "product_id": "9cdbdab4-fa87-4bba-8c60-7a0763647f67"
+      },
+      {
+        "id": "3bb0392d-69b7-47c6-9c87-1284287ce614",
+        "quantity": 72604,
+        "date": "2023-08-15T05:34:20.384Z",
+        "created_at": "2023-08-15T10:19:45.868Z",
+        "updated_at": "2023-08-15T05:00:02.925Z",
+        "product_id": "69a5ce87-7a21-4d5a-be65-b958fb5cc47e"
+      },
+      {
+        "id": "7561116b-303f-40f7-a08e-168bd7ff3d28",
+        "quantity": 350,
+        "date": "2023-08-15T03:08:43.717Z",
+        "created_at": "2023-08-14T14:15:04.516Z",
+        "updated_at": "2023-08-14T13:58:44.846Z",
+        "product_id": "9aab0926-af42-4c51-a0d0-870b9deefa38"
+      },
+      {
+        "id": "c0ade0c6-bfc9-4a8a-9f85-64144d771df2",
+        "quantity": 64527,
+        "date": "2023-08-15T02:16:49.654Z",
+        "created_at": "2023-08-15T00:32:04.253Z",
+        "updated_at": "2023-08-14T11:46:04.109Z",
+        "product_id": "69a5ce87-7a21-4d5a-be65-b958fb5cc47e"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "e52e9d94-faf2-47d4-a10a-f1df57958caf",
+        "date": "2023-08-14T11:38:15.351Z",
+        "created_at": "2023-08-14T20:38:26.003Z",
+        "updated_at": "2023-08-14T18:26:59.320Z",
+        "product_id": "69a5ce87-7a21-4d5a-be65-b958fb5cc47e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e282c5e4-294a-455e-ba9e-b8cce8adcc1a",
+        "date": "2023-08-15T02:05:29.929Z",
+        "created_at": "2023-08-14T12:25:08.952Z",
+        "updated_at": "2023-08-14T13:40:32.404Z",
+        "product_id": "57de3635-b59d-4e06-be6b-89600d5149b0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28ec3452-692b-4f6e-906a-c1436b3cba92",
+        "date": "2023-08-15T09:26:56.175Z",
+        "created_at": "2023-08-14T14:27:01.268Z",
+        "updated_at": "2023-08-14T11:40:35.575Z",
+        "product_id": "40600203-811d-4654-85b1-4b69260bd06d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9e30fe8-2f13-4c00-94a2-06ab3832d6ac",
+        "date": "2023-08-14T14:18:02.696Z",
+        "created_at": "2023-08-14T19:25:46.597Z",
+        "updated_at": "2023-08-14T14:55:01.759Z",
+        "product_id": "57de3635-b59d-4e06-be6b-89600d5149b0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b457e8f0-5bdc-4b51-941f-6f33d32fd20b",
+        "date": "2023-08-15T06:21:43.823Z",
+        "created_at": "2023-08-15T06:00:30.068Z",
+        "updated_at": "2023-08-14T18:23:28.483Z",
+        "product_id": "57de3635-b59d-4e06-be6b-89600d5149b0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "493beec3-e5d8-4fe8-aa6e-a76d15ebcfac",
+        "email": "Seamus87@yahoo.com",
+        "firstName": "Leonardo",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69555113",
+        "tenantId": null
+      },
+      {
+        "reference": "01bef1f8-3c2e-4456-9b79-0ea916787c3e",
+        "email": "Hermina79@gmail.com",
+        "firstName": "Lou",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/447.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "802d9bff-8377-423f-afe8-366326f696e3",
+        "email": "Salvador66@gmail.com",
+        "firstName": "Laurie",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94450887",
+        "tenantId": null
+      },
+      {
+        "reference": "88a49a02-8ea3-444d-beb2-1f66b3423011",
+        "email": "Albin.Friesen25@yahoo.com",
+        "firstName": "Shana",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/16.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8c7f203b-5458-4c0a-a9a7-9a66c6715933",
+        "email": "Maverick51@yahoo.com",
+        "firstName": "Yasmin",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60067565",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "fe10a14b-3780-4666-84d3-7779bcd86312",
+        "name": "Product A",
+        "description": "This is Product A",
+        "created_at": "2023-08-14T14:39:51.637Z",
+        "updated_at": "2023-08-15T08:34:58.993Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "e16d2fc4-82de-4c8d-bce7-54656a7a096d",
+        "name": "Product B",
+        "description": "This is Product B",
+        "created_at": "2023-08-14T14:09:00.979Z",
+        "updated_at": "2023-08-14T15:36:22.104Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "17096d95-014a-4210-bff4-b72b92853e35",
+        "name": "Product C",
+        "description": "This is Product C",
+        "created_at": "2023-08-15T09:42:56.836Z",
+        "updated_at": "2023-08-14T20:30:55.232Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "868a1aa5-b06e-480f-885f-9a372b3c362e",
+        "name": "Product D",
+        "description": "This is Product D",
+        "created_at": "2023-08-14T17:54:14.335Z",
+        "updated_at": "2023-08-14T14:51:51.531Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "413897f4-f7d3-451a-8fdb-aa7e6abad6c0",
+        "name": "Product E",
+        "description": "This is Product E",
+        "created_at": "2023-08-14T21:08:15.255Z",
+        "updated_at": "2023-08-14T19:33:27.725Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "e6e81b2f-104a-40bf-9940-51544d08000c",
+        "quantity": 75680,
+        "date": "2023-08-14T16:22:05.209Z",
+        "created_at": "2023-08-14T23:55:16.116Z",
+        "updated_at": "2023-08-15T07:38:27.433Z",
+        "product_id": "e16d2fc4-82de-4c8d-bce7-54656a7a096d"
+      },
+      {
+        "id": "812b85ad-39d8-46f6-90fa-a0530cd9710c",
+        "quantity": 5951,
+        "date": "2023-08-14T21:59:20.128Z",
+        "created_at": "2023-08-14T18:05:04.797Z",
+        "updated_at": "2023-08-15T10:31:13.733Z",
+        "product_id": "868a1aa5-b06e-480f-885f-9a372b3c362e"
+      },
+      {
+        "id": "861fa8b7-93c6-46f3-86fd-c3d836955327",
+        "quantity": 61500,
+        "date": "2023-08-14T18:55:12.822Z",
+        "created_at": "2023-08-14T19:10:48.584Z",
+        "updated_at": "2023-08-15T09:36:52.370Z",
+        "product_id": "17096d95-014a-4210-bff4-b72b92853e35"
+      },
+      {
+        "id": "dfae4976-9fe9-423d-8756-eba03597113f",
+        "quantity": 59456,
+        "date": "2023-08-14T11:27:09.503Z",
+        "created_at": "2023-08-15T06:56:36.890Z",
+        "updated_at": "2023-08-14T16:07:06.613Z",
+        "product_id": "868a1aa5-b06e-480f-885f-9a372b3c362e"
+      },
+      {
+        "id": "9af4018a-44d1-40be-a1d8-58ecc288f950",
+        "quantity": 69476,
+        "date": "2023-08-14T13:57:55.012Z",
+        "created_at": "2023-08-14T23:18:36.017Z",
+        "updated_at": "2023-08-14T16:42:18.271Z",
+        "product_id": "e16d2fc4-82de-4c8d-bce7-54656a7a096d"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "47ffcf06-ab8b-48c6-9b31-e785514349bc",
+        "date": "2023-08-14T21:44:58.016Z",
+        "created_at": "2023-08-15T04:03:32.028Z",
+        "updated_at": "2023-08-14T22:37:59.457Z",
+        "product_id": "17096d95-014a-4210-bff4-b72b92853e35",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69c6e83e-533e-4283-bdd2-e3231a9f8a20",
+        "date": "2023-08-14T20:25:30.106Z",
+        "created_at": "2023-08-14T13:18:19.848Z",
+        "updated_at": "2023-08-15T05:46:37.990Z",
+        "product_id": "413897f4-f7d3-451a-8fdb-aa7e6abad6c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d469dc8-0b5b-48e8-bce0-34fdfdda22dd",
+        "date": "2023-08-14T15:58:29.561Z",
+        "created_at": "2023-08-15T09:52:03.797Z",
+        "updated_at": "2023-08-15T05:45:51.817Z",
+        "product_id": "413897f4-f7d3-451a-8fdb-aa7e6abad6c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c3eef35-9cd2-4fd3-ad31-9bcf8277ad7d",
+        "date": "2023-08-15T02:20:43.481Z",
+        "created_at": "2023-08-14T21:32:35.206Z",
+        "updated_at": "2023-08-15T03:07:05.956Z",
+        "product_id": "413897f4-f7d3-451a-8fdb-aa7e6abad6c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "066aeb67-708a-467f-9924-6b00ea0dcc57",
+        "date": "2023-08-14T18:25:51.689Z",
+        "created_at": "2023-08-14T19:25:21.798Z",
+        "updated_at": "2023-08-15T04:26:13.971Z",
+        "product_id": "fe10a14b-3780-4666-84d3-7779bcd86312",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6e3dcba0-13d5-4b95-90b8-813ab81be722",
+        "email": "Sydney.Bosco28@yahoo.com",
+        "firstName": "Aimee",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93675767",
+        "tenantId": null
+      },
+      {
+        "reference": "a989854e-0842-4900-a657-678cd2d69789",
+        "email": "Buck.Wiegand@yahoo.com",
+        "firstName": "Johnny",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/361.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d3178b88-29a0-4741-be17-187b37efea81",
+        "email": "Marlen97@gmail.com",
+        "firstName": "Sydney",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42868574",
+        "tenantId": null
+      },
+      {
+        "reference": "d6d39b6b-f3d8-4aa8-9bbf-ec867205db15",
+        "email": "Zella_Trantow@gmail.com",
+        "firstName": "Leilani",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/173.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "18dcead0-326b-4321-bb2a-43fc5ca4cfab",
+        "email": "Makenzie.Becker-Wiza@yahoo.com",
+        "firstName": "Dorothy",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54953345",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "21fedad2-ccd4-466f-a24a-aa83a0947acf",
+        "name": "Product A",
+        "description": "This is Product A",
+        "created_at": "2023-08-15T01:31:52.914Z",
+        "updated_at": "2023-08-15T05:42:08.898Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1f8423de-5648-477e-953d-6beaae95eb3c",
+        "name": "Product B",
+        "description": "This is Product B",
+        "created_at": "2023-08-14T13:04:45.171Z",
+        "updated_at": "2023-08-14T11:21:53.458Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "92a45fd6-23ba-4786-8f8c-484fd566882e",
+        "name": "Product C",
+        "description": "This is Product C",
+        "created_at": "2023-08-14T15:42:54.193Z",
+        "updated_at": "2023-08-15T03:16:18.179Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "5dc97df5-aa47-422b-b709-7a44de7b7825",
+        "name": "Product D",
+        "description": "This is Product D",
+        "created_at": "2023-08-14T14:44:15.826Z",
+        "updated_at": "2023-08-14T17:56:06.404Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a89a6789-87e9-4b00-b74a-63188b3730e6",
+        "name": "Product E",
+        "description": "This is Product E",
+        "created_at": "2023-08-15T09:45:24.030Z",
+        "updated_at": "2023-08-15T09:09:54.230Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "5ced71d9-ff9c-4aa5-95e1-a333e5dab911",
+        "quantity": 25356,
+        "date": "2023-08-15T03:14:36.670Z",
+        "created_at": "2023-08-14T18:13:26.757Z",
+        "updated_at": "2023-08-14T20:14:48.613Z",
+        "product_id": "21fedad2-ccd4-466f-a24a-aa83a0947acf"
+      },
+      {
+        "id": "a98fa09a-0f6f-4bff-a81b-2bb79188a17d",
+        "quantity": 95825,
+        "date": "2023-08-14T21:51:30.559Z",
+        "created_at": "2023-08-15T04:20:15.630Z",
+        "updated_at": "2023-08-14T17:31:12.278Z",
+        "product_id": "1f8423de-5648-477e-953d-6beaae95eb3c"
+      },
+      {
+        "id": "1a11c0c3-00b5-46d5-8dd7-a9498a9fc7b2",
+        "quantity": 97916,
+        "date": "2023-08-15T00:30:39.328Z",
+        "created_at": "2023-08-15T03:27:55.837Z",
+        "updated_at": "2023-08-14T20:35:28.278Z",
+        "product_id": "21fedad2-ccd4-466f-a24a-aa83a0947acf"
+      },
+      {
+        "id": "30c6bbda-78ba-47b0-8e52-5ae0a813cded",
+        "quantity": 14887,
+        "date": "2023-08-15T05:51:00.201Z",
+        "created_at": "2023-08-14T18:21:05.264Z",
+        "updated_at": "2023-08-15T04:09:00.748Z",
+        "product_id": "1f8423de-5648-477e-953d-6beaae95eb3c"
+      },
+      {
+        "id": "98a6d02b-f5b1-4334-bbc3-3daab0b93667",
+        "quantity": 51759,
+        "date": "2023-08-15T04:12:06.366Z",
+        "created_at": "2023-08-15T05:53:38.969Z",
+        "updated_at": "2023-08-15T00:23:29.889Z",
+        "product_id": "21fedad2-ccd4-466f-a24a-aa83a0947acf"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "c9b9ca29-c9c5-456e-a89c-0cb71bfdd2a3",
+        "date": "2023-08-15T00:54:36.181Z",
+        "created_at": "2023-08-14T23:03:27.003Z",
+        "updated_at": "2023-08-15T08:43:57.400Z",
+        "product_id": "92a45fd6-23ba-4786-8f8c-484fd566882e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbeebf12-01ce-40f1-8cc9-0d5b018c88d7",
+        "date": "2023-08-15T07:54:08.121Z",
+        "created_at": "2023-08-15T07:14:19.669Z",
+        "updated_at": "2023-08-14T11:08:41.781Z",
+        "product_id": "21fedad2-ccd4-466f-a24a-aa83a0947acf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06550ed2-61ee-47f9-a0d6-335db4e06c18",
+        "date": "2023-08-15T04:43:26.418Z",
+        "created_at": "2023-08-14T14:11:21.808Z",
+        "updated_at": "2023-08-15T06:18:14.769Z",
+        "product_id": "92a45fd6-23ba-4786-8f8c-484fd566882e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de57fc6d-d3b3-48d2-9835-f0cb162f7e58",
+        "date": "2023-08-15T01:15:04.268Z",
+        "created_at": "2023-08-15T06:29:45.256Z",
+        "updated_at": "2023-08-15T05:37:22.460Z",
+        "product_id": "a89a6789-87e9-4b00-b74a-63188b3730e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c839afa6-29f3-465f-b610-742194de3c92",
+        "date": "2023-08-14T14:08:42.006Z",
+        "created_at": "2023-08-15T08:49:51.646Z",
+        "updated_at": "2023-08-14T12:01:41.468Z",
+        "product_id": "a89a6789-87e9-4b00-b74a-63188b3730e6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "74a63360-af75-41eb-90d9-fdfa337c6d21",
+        "email": "Mckenna.Jaskolski@yahoo.com",
+        "firstName": "Kaelyn",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/342.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9966298e-7c42-4dd4-a8b6-0a1118013526",
+        "email": "Nestor64@yahoo.com",
+        "firstName": "Rudolph",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/879.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "71b46cb9-e27e-4553-bbaa-f3f093705e8f",
+        "email": "Terry.Cruickshank89@hotmail.com",
+        "firstName": "Doris",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24782541",
+        "tenantId": null
+      },
+      {
+        "reference": "d80ef9f0-a44a-49a8-a0fd-c65e127e3222",
+        "email": "Phoebe58@yahoo.com",
+        "firstName": "Albert",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53179134",
+        "tenantId": null
+      },
+      {
+        "reference": "b3b51876-af16-4bfc-b39c-df00e18dfc72",
+        "email": "Eileen24@gmail.com",
+        "firstName": "Sydni",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/390.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "36959c69-90f2-4b46-8ea2-151541fc38ad",
+        "name": "Product A",
+        "description": "This is Product A",
+        "created_at": "2023-08-14T15:19:47.331Z",
+        "updated_at": "2023-08-15T07:40:24.823Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "460bd2e1-aa6a-41b0-b13f-4ddcc5854660",
+        "name": "Product B",
+        "description": "This is Product B",
+        "created_at": "2023-08-14T18:51:16.606Z",
+        "updated_at": "2023-08-14T21:13:43.219Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f7f3da50-fb80-41d8-9308-533d08abb764",
+        "name": "Product C",
+        "description": "This is Product C",
+        "created_at": "2023-08-14T19:04:18.402Z",
+        "updated_at": "2023-08-15T05:14:47.828Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a14187c5-067e-4039-977c-3670feddda7f",
+        "name": "Product D",
+        "description": "This is Product D",
+        "created_at": "2023-08-14T22:09:29.171Z",
+        "updated_at": "2023-08-14T21:16:27.877Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d3b08624-83d3-41ad-8ce5-c6c57f395db7",
+        "name": "Product E",
+        "description": "This is Product E",
+        "created_at": "2023-08-15T04:28:03.849Z",
+        "updated_at": "2023-08-14T16:32:09.033Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "79429dbf-ea86-43ec-920e-323ed622616e",
+        "quantity": 51119,
+        "date": "2023-08-15T06:42:22.882Z",
+        "created_at": "2023-08-14T14:15:43.965Z",
+        "updated_at": "2023-08-14T17:46:10.260Z",
+        "product_id": "36959c69-90f2-4b46-8ea2-151541fc38ad"
+      },
+      {
+        "id": "b33867ad-751a-4a9d-ab1b-c9bfefbeac1f",
+        "quantity": 46204,
+        "date": "2023-08-14T18:23:11.256Z",
+        "created_at": "2023-08-15T02:37:39.228Z",
+        "updated_at": "2023-08-15T10:02:44.170Z",
+        "product_id": "d3b08624-83d3-41ad-8ce5-c6c57f395db7"
+      },
+      {
+        "id": "c1629a37-edcf-40b0-ada0-8e5e18f92792",
+        "quantity": 97511,
+        "date": "2023-08-14T12:12:19.983Z",
+        "created_at": "2023-08-15T07:23:24.351Z",
+        "updated_at": "2023-08-14T13:22:39.569Z",
+        "product_id": "460bd2e1-aa6a-41b0-b13f-4ddcc5854660"
+      },
+      {
+        "id": "edb020ef-1034-4dd3-850b-c5cd9aadeed5",
+        "quantity": 65768,
+        "date": "2023-08-15T04:23:59.507Z",
+        "created_at": "2023-08-15T06:54:43.540Z",
+        "updated_at": "2023-08-15T06:07:47.795Z",
+        "product_id": "36959c69-90f2-4b46-8ea2-151541fc38ad"
+      },
+      {
+        "id": "faf14e4c-1b01-4fe0-9f7f-460613e81409",
+        "quantity": 35713,
+        "date": "2023-08-14T12:06:02.781Z",
+        "created_at": "2023-08-14T23:23:40.768Z",
+        "updated_at": "2023-08-14T14:24:13.969Z",
+        "product_id": "460bd2e1-aa6a-41b0-b13f-4ddcc5854660"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "540e8ce2-62dc-4cc4-904a-9f73183e2ebd",
+        "date": "2023-08-15T06:30:37.947Z",
+        "created_at": "2023-08-14T16:54:18.021Z",
+        "updated_at": "2023-08-15T00:01:47.989Z",
+        "product_id": "f7f3da50-fb80-41d8-9308-533d08abb764",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5fd2292-7205-4866-b7c9-6c44ffd32010",
+        "date": "2023-08-14T20:16:26.489Z",
+        "created_at": "2023-08-14T23:18:40.339Z",
+        "updated_at": "2023-08-14T23:27:40.741Z",
+        "product_id": "460bd2e1-aa6a-41b0-b13f-4ddcc5854660",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06d8eae3-ed1e-4f3b-a882-9997cea29872",
+        "date": "2023-08-14T21:37:32.232Z",
+        "created_at": "2023-08-14T10:50:18.438Z",
+        "updated_at": "2023-08-15T03:29:26.231Z",
+        "product_id": "460bd2e1-aa6a-41b0-b13f-4ddcc5854660",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7ebebb2-21a1-4090-8218-67ed8859fd96",
+        "date": "2023-08-14T16:52:10.441Z",
+        "created_at": "2023-08-15T09:21:50.025Z",
+        "updated_at": "2023-08-15T02:53:57.456Z",
+        "product_id": "a14187c5-067e-4039-977c-3670feddda7f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ee92125-0588-4d7d-aeba-184bec803f13",
+        "date": "2023-08-15T00:59:53.655Z",
+        "created_at": "2023-08-14T21:37:11.410Z",
+        "updated_at": "2023-08-15T04:56:29.570Z",
+        "product_id": "f7f3da50-fb80-41d8-9308-533d08abb764",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "25a0fb22-4fcb-4611-b098-4b461782ceae",
+        "email": "Keyshawn19@hotmail.com",
+        "firstName": "Nash",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70027215",
+        "tenantId": null
+      },
+      {
+        "reference": "72ab8deb-1ae8-4b35-91f5-816d6ba410fb",
+        "email": "Ken.Schamberger@hotmail.com",
+        "firstName": "Albin",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/544.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5baed44b-a639-4ceb-8a8f-d50dafab72c9",
+        "email": "Albin_Mills@yahoo.com",
+        "firstName": "Eden",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/372.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "900329dd-d9b2-4f75-aa90-da57a3b24192",
+        "email": "Omari44@gmail.com",
+        "firstName": "Glen",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/533.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b523b86c-a197-4a2b-b9e8-df3b8030add0",
+        "email": "Elizabeth.Will@yahoo.com",
+        "firstName": "Aracely",
+        "lastName": "McClure",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/507.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "7bbb03f9-eeb8-4ed5-bb4a-643c2d5c815d",
+        "name": "Product A",
+        "description": "This is Product A",
+        "created_at": "2023-08-15T09:38:13.448Z",
+        "updated_at": "2023-08-15T06:15:05.418Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "05be5960-ec0a-42d2-8f09-a0d10bfd9db8",
+        "name": "Product B",
+        "description": "This is Product B",
+        "created_at": "2023-08-15T05:29:34.903Z",
+        "updated_at": "2023-08-14T12:08:35.066Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "082be796-3482-41db-9352-1a58e24ca191",
+        "name": "Product C",
+        "description": "This is Product C",
+        "created_at": "2023-08-14T22:32:30.899Z",
+        "updated_at": "2023-08-14T18:21:19.007Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f21e8766-9315-4edf-ae53-c4abfcc812be",
+        "name": "Product D",
+        "description": "This is Product D",
+        "created_at": "2023-08-15T02:38:58.639Z",
+        "updated_at": "2023-08-14T19:29:42.492Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f25c680c-8168-4fef-bcdd-4ab21aedcb82",
+        "name": "Product E",
+        "description": "This is Product E",
+        "created_at": "2023-08-15T06:42:23.470Z",
+        "updated_at": "2023-08-15T09:17:23.843Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "ed35279f-d6e6-48b2-8424-a86a1cdbce20",
+        "quantity": 53553,
+        "date": "2023-08-14T21:34:02.999Z",
+        "created_at": "2023-08-15T01:39:25.370Z",
+        "updated_at": "2023-08-14T20:35:15.015Z",
+        "product_id": "f25c680c-8168-4fef-bcdd-4ab21aedcb82"
+      },
+      {
+        "id": "d3fec2cd-e3c7-46a9-b4f7-4ad56c2cfaa4",
+        "quantity": 99636,
+        "date": "2023-08-14T20:49:16.338Z",
+        "created_at": "2023-08-14T21:10:18.463Z",
+        "updated_at": "2023-08-14T10:48:59.589Z",
+        "product_id": "7bbb03f9-eeb8-4ed5-bb4a-643c2d5c815d"
+      },
+      {
+        "id": "f22a737b-50a1-455b-af7f-ecec03a9b975",
+        "quantity": 68858,
+        "date": "2023-08-14T18:27:41.759Z",
+        "created_at": "2023-08-14T15:35:06.245Z",
+        "updated_at": "2023-08-14T11:52:35.542Z",
+        "product_id": "05be5960-ec0a-42d2-8f09-a0d10bfd9db8"
+      },
+      {
+        "id": "12418c80-a223-48a6-8d49-96f443d676ab",
+        "quantity": 43230,
+        "date": "2023-08-14T16:55:41.523Z",
+        "created_at": "2023-08-14T16:48:04.760Z",
+        "updated_at": "2023-08-15T04:20:21.563Z",
+        "product_id": "f21e8766-9315-4edf-ae53-c4abfcc812be"
+      },
+      {
+        "id": "799d17ad-7c1a-4a62-9920-0d91be800fab",
+        "quantity": 75805,
+        "date": "2023-08-15T06:52:53.079Z",
+        "created_at": "2023-08-15T10:03:02.786Z",
+        "updated_at": "2023-08-14T19:53:16.905Z",
+        "product_id": "f25c680c-8168-4fef-bcdd-4ab21aedcb82"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "65b50997-0d34-47a2-b230-07d3dc942b74",
+        "date": "2023-08-14T13:33:09.864Z",
+        "created_at": "2023-08-14T20:47:57.306Z",
+        "updated_at": "2023-08-15T03:47:22.653Z",
+        "product_id": "082be796-3482-41db-9352-1a58e24ca191",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77f91ebc-91ab-4094-ab18-aca08e05a33c",
+        "date": "2023-08-14T23:09:34.046Z",
+        "created_at": "2023-08-15T02:27:14.508Z",
+        "updated_at": "2023-08-15T09:15:53.164Z",
+        "product_id": "05be5960-ec0a-42d2-8f09-a0d10bfd9db8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1caec89f-3bcb-4276-bc35-e1ec61276e6d",
+        "date": "2023-08-14T21:11:29.244Z",
+        "created_at": "2023-08-15T00:09:15.802Z",
+        "updated_at": "2023-08-15T04:36:29.921Z",
+        "product_id": "7bbb03f9-eeb8-4ed5-bb4a-643c2d5c815d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f58a88be-e447-4c30-a9cf-a9a1e9b1cbd0",
+        "date": "2023-08-14T14:31:51.762Z",
+        "created_at": "2023-08-15T01:56:19.647Z",
+        "updated_at": "2023-08-14T15:43:00.155Z",
+        "product_id": "05be5960-ec0a-42d2-8f09-a0d10bfd9db8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3ee74e1-7b2a-489d-8ee6-3ac93923008b",
+        "date": "2023-08-15T03:31:38.330Z",
+        "created_at": "2023-08-15T03:18:56.489Z",
+        "updated_at": "2023-08-14T18:00:07.072Z",
+        "product_id": "7bbb03f9-eeb8-4ed5-bb4a-643c2d5c815d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "91941bde-c587-4cca-a680-c5deca9c8071",
+        "email": "Darryl.Reilly6@hotmail.com",
+        "firstName": "Magnus",
+        "lastName": "Schowalter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/697.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5da4849e-7461-4de3-99a4-b60ab5bbaa3e",
+        "email": "Ernest49@yahoo.com",
+        "firstName": "Nicolas",
+        "lastName": "Reinger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/343.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f1989ea-4b2c-438f-b8cd-a1868a929a99",
+        "email": "Nickolas.Stoltenberg33@gmail.com",
+        "firstName": "Kyla",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38213349",
+        "tenantId": null
+      },
+      {
+        "reference": "310573c0-12fe-41c9-8fc4-c5608ccfabe5",
+        "email": "Krystel33@yahoo.com",
+        "firstName": "Skyla",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31735044",
+        "tenantId": null
+      },
+      {
+        "reference": "f8a72b25-51df-4bd7-98d2-d64c9c7dbfe1",
+        "email": "Lea_Braun6@yahoo.com",
+        "firstName": "Verna",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/8.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "526f1550-02a1-45d8-b4b3-0f49611120b3",
+        "name": "Product A",
+        "description": "This is Product A",
+        "created_at": "2023-08-15T02:58:06.015Z",
+        "updated_at": "2023-08-15T04:53:49.042Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "dc4575a2-04a2-4321-81ec-a13a55aacf1d",
+        "name": "Product B",
+        "description": "This is Product B",
+        "created_at": "2023-08-14T16:23:25.526Z",
+        "updated_at": "2023-08-15T07:02:33.645Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "77a8630a-f463-4089-a5b4-b4cb66a1e596",
+        "name": "Product C",
+        "description": "This is Product C",
+        "created_at": "2023-08-14T22:33:33.087Z",
+        "updated_at": "2023-08-15T02:31:17.171Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "80fecbf9-6b6b-4b77-97c6-043368aa467c",
+        "name": "Product D",
+        "description": "This is Product D",
+        "created_at": "2023-08-15T02:21:00.942Z",
+        "updated_at": "2023-08-14T12:38:44.773Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "c3e4b47e-2457-43bb-84bf-780117692967",
+        "name": "Product E",
+        "description": "This is Product E",
+        "created_at": "2023-08-14T17:30:55.844Z",
+        "updated_at": "2023-08-14T23:49:30.655Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "2fa3562e-4d61-42ec-ac26-20a96ba479ad",
+        "quantity": 73215,
+        "date": "2023-08-14T19:36:12.253Z",
+        "created_at": "2023-08-14T22:46:39.355Z",
+        "updated_at": "2023-08-14T11:20:21.845Z",
+        "product_id": "526f1550-02a1-45d8-b4b3-0f49611120b3"
+      },
+      {
+        "id": "7a9e7b8d-185a-4eee-833b-2661c98240aa",
+        "quantity": 9241,
+        "date": "2023-08-14T22:18:25.556Z",
+        "created_at": "2023-08-15T07:00:31.272Z",
+        "updated_at": "2023-08-14T11:55:06.723Z",
+        "product_id": "80fecbf9-6b6b-4b77-97c6-043368aa467c"
+      },
+      {
+        "id": "87ee23a8-e279-48e1-a9c3-e619906c60cc",
+        "quantity": 73091,
+        "date": "2023-08-14T20:28:48.181Z",
+        "created_at": "2023-08-14T21:57:25.249Z",
+        "updated_at": "2023-08-14T21:24:35.420Z",
+        "product_id": "77a8630a-f463-4089-a5b4-b4cb66a1e596"
+      },
+      {
+        "id": "0a44c5cf-4d66-4e7d-a5c7-3b41c3d3607d",
+        "quantity": 68081,
+        "date": "2023-08-15T03:56:09.956Z",
+        "created_at": "2023-08-15T01:25:35.627Z",
+        "updated_at": "2023-08-15T08:03:33.477Z",
+        "product_id": "80fecbf9-6b6b-4b77-97c6-043368aa467c"
+      },
+      {
+        "id": "10ca2b0b-fcd3-4b0c-b438-fbd333335a63",
+        "quantity": 87179,
+        "date": "2023-08-14T16:39:45.520Z",
+        "created_at": "2023-08-15T03:03:28.611Z",
+        "updated_at": "2023-08-14T14:22:22.029Z",
+        "product_id": "526f1550-02a1-45d8-b4b3-0f49611120b3"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "f77e850d-0afe-4554-882e-4d0282e56246",
+        "date": "2023-08-15T05:32:35.877Z",
+        "created_at": "2023-08-15T02:50:56.573Z",
+        "updated_at": "2023-08-14T14:04:17.596Z",
+        "product_id": "c3e4b47e-2457-43bb-84bf-780117692967",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78009cd5-e440-4aa9-bac7-f2e241fd154e",
+        "date": "2023-08-15T06:50:50.512Z",
+        "created_at": "2023-08-15T06:37:10.131Z",
+        "updated_at": "2023-08-15T06:34:19.501Z",
+        "product_id": "c3e4b47e-2457-43bb-84bf-780117692967",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b6420da-3ce4-47a9-8309-c6f1f90fde73",
+        "date": "2023-08-15T01:18:23.738Z",
+        "created_at": "2023-08-15T09:26:24.523Z",
+        "updated_at": "2023-08-14T13:39:00.815Z",
+        "product_id": "80fecbf9-6b6b-4b77-97c6-043368aa467c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e8899dd-d417-43a1-a88e-373ee0685707",
+        "date": "2023-08-15T10:02:43.436Z",
+        "created_at": "2023-08-15T09:06:24.851Z",
+        "updated_at": "2023-08-15T09:03:34.367Z",
+        "product_id": "77a8630a-f463-4089-a5b4-b4cb66a1e596",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4765166c-6ab4-4072-adf3-cd1e60c63839",
+        "date": "2023-08-15T04:04:18.157Z",
+        "created_at": "2023-08-15T05:19:47.526Z",
+        "updated_at": "2023-08-15T02:09:55.406Z",
+        "product_id": "77a8630a-f463-4089-a5b4-b4cb66a1e596",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "963a0a82-cbc7-480f-b903-f64a9d4ee8b0",
+        "email": "Darrell.McCullough@yahoo.com",
+        "firstName": "Jace",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95350352",
+        "tenantId": null
+      },
+      {
+        "reference": "ec0c894e-f640-4e66-829f-ea0772b249f6",
+        "email": "Dandre.VonRueden@hotmail.com",
+        "firstName": "Lysanne",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/406.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ddde81f6-fc7c-4985-9b59-21b7991155be",
+        "email": "Naomie12@gmail.com",
+        "firstName": "Catharine",
+        "lastName": "Considine-Becker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21781511",
+        "tenantId": null
+      },
+      {
+        "reference": "805bd654-99b6-4725-959c-fcb0411e0f87",
+        "email": "Evangeline_Koelpin@yahoo.com",
+        "firstName": "Ansley",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51376635",
+        "tenantId": null
+      },
+      {
+        "reference": "4a26b900-8a06-4409-ab1d-75aad1437ec8",
+        "email": "Tremayne_Murazik@yahoo.com",
+        "firstName": "Isidro",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4618840",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "edd1564b-9f49-4c9e-8faf-0696907266e1",
+        "name": "Product A",
+        "description": "This is Product A",
+        "created_at": "2023-08-14T23:01:27.224Z",
+        "updated_at": "2023-08-14T12:39:25.381Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "706eef8c-05f9-4470-8004-4b25dfdb6a55",
+        "name": "Product B",
+        "description": "This is Product B",
+        "created_at": "2023-08-15T02:00:38.528Z",
+        "updated_at": "2023-08-14T17:05:44.804Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a370fdcf-f2d5-4fb0-b374-45ac70b0d890",
+        "name": "Product C",
+        "description": "This is Product C",
+        "created_at": "2023-08-15T04:41:18.010Z",
+        "updated_at": "2023-08-14T13:32:37.726Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "5019a10f-aaf6-4116-a99f-f45d1c9b74dd",
+        "name": "Product D",
+        "description": "This is Product D",
+        "created_at": "2023-08-15T04:41:59.158Z",
+        "updated_at": "2023-08-15T05:06:12.668Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "69b8a0eb-b6fb-4288-ba57-2b3b8b48537c",
+        "name": "Product E",
+        "description": "This is Product E",
+        "created_at": "2023-08-14T21:47:42.626Z",
+        "updated_at": "2023-08-14T22:29:48.072Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "3d86d8f4-a684-41b1-8839-88abfa50f087",
+        "quantity": 6963,
+        "date": "2023-08-15T09:45:52.212Z",
+        "created_at": "2023-08-14T11:02:21.329Z",
+        "updated_at": "2023-08-14T22:47:05.520Z",
+        "product_id": "5019a10f-aaf6-4116-a99f-f45d1c9b74dd"
+      },
+      {
+        "id": "8f75f02d-216e-4704-a7d0-fe7f721414b2",
+        "quantity": 7146,
+        "date": "2023-08-14T15:26:13.311Z",
+        "created_at": "2023-08-14T21:32:01.176Z",
+        "updated_at": "2023-08-14T14:28:49.145Z",
+        "product_id": "69b8a0eb-b6fb-4288-ba57-2b3b8b48537c"
+      },
+      {
+        "id": "7e2a6471-cda7-4229-82a4-f8ee9f7c25d3",
+        "quantity": 65033,
+        "date": "2023-08-15T01:48:31.002Z",
+        "created_at": "2023-08-14T20:38:24.399Z",
+        "updated_at": "2023-08-15T01:17:16.828Z",
+        "product_id": "5019a10f-aaf6-4116-a99f-f45d1c9b74dd"
+      },
+      {
+        "id": "9d6716ea-3e66-4cf2-9dc1-9a60789e76aa",
+        "quantity": 78710,
+        "date": "2023-08-15T02:12:39.924Z",
+        "created_at": "2023-08-15T07:54:56.664Z",
+        "updated_at": "2023-08-15T01:35:23.340Z",
+        "product_id": "edd1564b-9f49-4c9e-8faf-0696907266e1"
+      },
+      {
+        "id": "5f8a840d-fc69-4689-b0b7-11c1cdd4ea04",
+        "quantity": 84801,
+        "date": "2023-08-15T01:52:46.665Z",
+        "created_at": "2023-08-15T06:46:28.474Z",
+        "updated_at": "2023-08-14T12:27:48.692Z",
+        "product_id": "a370fdcf-f2d5-4fb0-b374-45ac70b0d890"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "d9a76865-5845-43aa-9196-1aa4181b8829",
+        "date": "2023-08-15T06:23:02.876Z",
+        "created_at": "2023-08-15T08:29:32.785Z",
+        "updated_at": "2023-08-14T12:29:57.692Z",
+        "product_id": "69b8a0eb-b6fb-4288-ba57-2b3b8b48537c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8d0efcd-e441-4365-886f-a41989cace85",
+        "date": "2023-08-14T20:22:27.939Z",
+        "created_at": "2023-08-14T22:17:26.335Z",
+        "updated_at": "2023-08-15T06:31:16.061Z",
+        "product_id": "706eef8c-05f9-4470-8004-4b25dfdb6a55",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5247877-cf1a-48ae-83e1-ae923f40ec06",
+        "date": "2023-08-14T11:14:24.312Z",
+        "created_at": "2023-08-14T12:15:35.505Z",
+        "updated_at": "2023-08-14T13:00:32.265Z",
+        "product_id": "5019a10f-aaf6-4116-a99f-f45d1c9b74dd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ba2c45d-8cc0-4cb6-90df-9e87d91ef546",
+        "date": "2023-08-14T13:09:18.260Z",
+        "created_at": "2023-08-15T01:00:04.005Z",
+        "updated_at": "2023-08-14T20:09:28.638Z",
+        "product_id": "5019a10f-aaf6-4116-a99f-f45d1c9b74dd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35760e6c-4043-4472-9f60-485d6cce5420",
+        "date": "2023-08-14T16:21:00.734Z",
+        "created_at": "2023-08-14T19:17:19.794Z",
+        "updated_at": "2023-08-14T19:33:53.963Z",
+        "product_id": "69b8a0eb-b6fb-4288-ba57-2b3b8b48537c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0cf9b0ec-081e-42ae-9b35-e3cd684d599f",
+        "email": "Edd46@yahoo.com",
+        "firstName": "Stevie",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/504.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2265d29f-fe59-475d-b8ea-8bfa365968b1",
+        "email": "Maverick.Shields48@yahoo.com",
+        "firstName": "Jerad",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37810819",
+        "tenantId": null
+      },
+      {
+        "reference": "d5bfdf9a-e52d-43df-b505-3935ea26949e",
+        "email": "Marianna_Paucek@yahoo.com",
+        "firstName": "Alessandro",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70924758",
+        "tenantId": null
+      },
+      {
+        "reference": "bcbf10a4-4418-4e0e-bfa2-f015e5284da1",
+        "email": "Jaydon_Spencer63@hotmail.com",
+        "firstName": "Liana",
+        "lastName": "Orn-Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/398.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6cd7f6f0-f3ac-4c59-8e04-ec60e07d6e2c",
+        "email": "Isaiah23@hotmail.com",
+        "firstName": "Jesus",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4806443",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "b7dbd282-2355-48bb-a880-acdc30e0f3f6",
+        "name": "Product A",
+        "description": "This is Product A",
+        "created_at": "2023-08-15T07:15:08.777Z",
+        "updated_at": "2023-08-14T11:02:47.570Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "2c09121a-bc20-4148-9b28-a8dbb0dd27ee",
+        "name": "Product B",
+        "description": "This is Product B",
+        "created_at": "2023-08-15T07:45:56.583Z",
+        "updated_at": "2023-08-15T04:44:11.441Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "29de6cab-6d85-4a4d-af36-8e31ce126aa6",
+        "name": "Product C",
+        "description": "This is Product C",
+        "created_at": "2023-08-15T10:20:52.408Z",
+        "updated_at": "2023-08-14T22:13:16.924Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "513e6497-f1a5-4e15-9d9b-d497e2286cd1",
+        "name": "Product D",
+        "description": "This is Product D",
+        "created_at": "2023-08-14T11:07:41.143Z",
+        "updated_at": "2023-08-15T03:06:51.648Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "11490e14-4df8-4b22-8314-003a28344209",
+        "name": "Product E",
+        "description": "This is Product E",
+        "created_at": "2023-08-14T23:04:40.519Z",
+        "updated_at": "2023-08-15T03:38:23.156Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "sales": [
+      {
+        "id": "49eeb025-ba62-4460-a624-6ceb701b49ff",
+        "quantity": 80878,
+        "date": "2023-08-14T15:46:38.607Z",
+        "created_at": "2023-08-15T06:41:32.199Z",
+        "updated_at": "2023-08-14T14:11:43.935Z",
+        "product_id": "b7dbd282-2355-48bb-a880-acdc30e0f3f6"
+      },
+      {
+        "id": "403c4604-cffb-4127-b1f9-0493d96d4c84",
+        "quantity": 52546,
+        "date": "2023-08-14T20:45:51.070Z",
+        "created_at": "2023-08-15T05:22:42.830Z",
+        "updated_at": "2023-08-14T19:56:27.229Z",
+        "product_id": "2c09121a-bc20-4148-9b28-a8dbb0dd27ee"
+      },
+      {
+        "id": "3b6d326a-66e7-4f0c-8a85-d2fde75433e1",
+        "quantity": 925,
+        "date": "2023-08-14T12:21:26.867Z",
+        "created_at": "2023-08-14T21:06:43.238Z",
+        "updated_at": "2023-08-15T01:55:12.988Z",
+        "product_id": "29de6cab-6d85-4a4d-af36-8e31ce126aa6"
+      },
+      {
+        "id": "8adc94a6-3fd9-49c2-ab9d-7435f20daa5a",
+        "quantity": 95875,
+        "date": "2023-08-15T10:27:22.322Z",
+        "created_at": "2023-08-15T10:25:56.902Z",
+        "updated_at": "2023-08-14T10:54:21.438Z",
+        "product_id": "513e6497-f1a5-4e15-9d9b-d497e2286cd1"
+      },
+      {
+        "id": "f8b26fdc-f93e-4c2a-99d8-b46ca2621d86",
+        "quantity": 93105,
+        "date": "2023-08-14T13:52:43.815Z",
+        "created_at": "2023-08-14T19:15:23.781Z",
+        "updated_at": "2023-08-14T17:14:08.149Z",
+        "product_id": "2c09121a-bc20-4148-9b28-a8dbb0dd27ee"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "7c361c14-6197-4a7d-a02e-cc03a62b5023",
+        "date": "2023-08-14T11:02:20.800Z",
+        "created_at": "2023-08-15T04:03:25.843Z",
+        "updated_at": "2023-08-14T22:15:58.022Z",
+        "product_id": "2c09121a-bc20-4148-9b28-a8dbb0dd27ee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69275efe-fb4e-4a9e-845c-c55c661bc693",
+        "date": "2023-08-14T20:50:59.392Z",
+        "created_at": "2023-08-15T10:42:48.401Z",
+        "updated_at": "2023-08-14T10:50:10.328Z",
+        "product_id": "29de6cab-6d85-4a4d-af36-8e31ce126aa6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6b93ec3-f54c-48d3-b8cf-ecfff0c1e6d4",
+        "date": "2023-08-14T19:46:34.338Z",
+        "created_at": "2023-08-15T00:33:46.622Z",
+        "updated_at": "2023-08-14T12:32:29.686Z",
+        "product_id": "513e6497-f1a5-4e15-9d9b-d497e2286cd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da3d9356-01f6-4a7b-867c-b4e26e0e52fd",
+        "date": "2023-08-15T02:23:15.051Z",
+        "created_at": "2023-08-15T00:43:13.601Z",
+        "updated_at": "2023-08-14T19:55:08.402Z",
+        "product_id": "513e6497-f1a5-4e15-9d9b-d497e2286cd1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "651bebba-eddb-4ea9-a7cb-e06ad5e249d1",
+        "date": "2023-08-15T03:00:37.549Z",
+        "created_at": "2023-08-14T23:38:57.045Z",
+        "updated_at": "2023-08-15T00:06:53.149Z",
+        "product_id": "11490e14-4df8-4b22-8314-003a28344209",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a646f2af-7146-4cbb-a809-2f3d47531755",
+        "email": "Georgiana_Tillman@yahoo.com",
+        "firstName": "Stephanie",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1132.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "97259f37-24fb-487f-86f6-204a7ad51d5e",
+        "email": "Stewart67@hotmail.com",
+        "firstName": "Candida",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1067.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "44b1efca-aecd-4fd0-ac26-d432572bdacf",
+        "email": "Janelle71@hotmail.com",
+        "firstName": "Thelma",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38542209",
+        "tenantId": null
+      },
+      {
+        "reference": "606c2b54-074b-4de2-92b3-340e56097ef8",
+        "email": "Brett_Orn65@yahoo.com",
+        "firstName": "Enos",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39727431",
+        "tenantId": null
+      },
+      {
+        "reference": "2bdcd3a9-32e1-43a1-8d62-a2b8f1ee7d61",
+        "email": "Jaida.Huel@gmail.com",
+        "firstName": "Nash",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/889.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
